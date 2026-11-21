@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Sonder</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net472</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <PropertyGroup>
+    <GameDir>C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag</GameDir>
+    <AssemblySearchPaths>$(AssemblySearchPaths);$(GameDir)\Gorilla Tag_Data\Managed;$(GameDir)\BepInEx\core</AssemblySearchPaths>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Sonder.Icon.rgba" />
+    <None Remove="Sonder.SearchIcon.rgba" />
+    <EmbeddedResource Include="Sonder.Icon.rgba" LogicalName="Sonder.Icon.rgba" />
+    <EmbeddedResource Include="Sonder.SearchIcon.rgba" LogicalName="Sonder.SearchIcon.rgba" />
+    <EmbeddedResource Include="Sonder\Fonts\Montserrat-Regular.ttf" LogicalName="Sonder.Montserrat.ttf" />
+    <EmbeddedResource Include="Sonder\Fonts\OpenSauceSans-Bold.ttf" LogicalName="Sonder.OpenSauceBold.ttf" />
+    <EmbeddedResource Include="Sonder\Sonder.NewIcon.png" LogicalName="Sonder.NewIcon.png" />
+    <EmbeddedResource Include="GorillaNotifications\Resources\gnotifications" LogicalName="GorillaNotifications.Resources.gnotifications" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="BepInEx" />
+    <Reference Include="0Harmony" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="Unity.TextMeshPro" />
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="UnityEngine.UIModule" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="Unity.InputSystem" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+    <Reference Include="UnityEngine.TextCoreFontEngineModule" />
+    <Reference Include="UnityEngine.XRModule" />
+    <Reference Include="PhotonRealtime" />
+    <Reference Include="Photon3Unity3D" />
+    <Reference Include="UnityEngine.AudioModule" />
+    <Reference Include="UnityEngine.AssetBundleModule" />
+    <Reference Include="UnityEngine.UnityWebRequestModule" />
+    <Reference Include="PhotonUnityNetworking" />
+    <Reference Include="UnityEngine.VRModule" />
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule" />
+    <Reference Include="Unity.Collections" />
+  </ItemGroup>
+</Project>

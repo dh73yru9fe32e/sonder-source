@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kenzo\\Desktop\\Sonder-source (3)\\Sonder-source\\Sonder.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kenzo\\Desktop\\Sonder-source (3)\\Sonder-source\\Sonder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kenzo\\Desktop\\Sonder-source (3)\\Sonder-source\\Sonder.csproj",
+        "projectName": "Sonder",
+        "projectPath": "C:\\Users\\kenzo\\Desktop\\Sonder-source (3)\\Sonder-source\\Sonder.csproj",
+        "packagesPath": "C:\\Users\\kenzo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenzo\\Desktop\\Sonder-source (3)\\Sonder-source\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "framework": "net472",
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
+      },
+      "frameworks": {
+        "net472": {
+          "framework": "net472",
+          "targetAlias": "net472",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
